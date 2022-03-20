@@ -1,0 +1,112 @@
+body {
+	font-size: 20px;
+    padding-left: 15em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: black;
+    background-color: #557B83 }
+    
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em
+    }
+    
+h1 {
+    font-family: Helvetica, Geneva, Arial,
+    SunSans-Regular, sans-serif }
+    
+ul li {
+    background: #E5EFC1;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid #39AEA9 }
+    
+ul a {
+    text-decoration: none }
+    
+a:link {
+    color: #A2D5AB }
+    
+a:visited {
+    color: purple }
+    
+.ubicacion_texto{
+	text-align: absolute;
+}
+
+img {
+	border: 5px solid;
+	color: black;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
+/* estilo del titulo*/
+text {
+  fill: #35322a;
+  filter: url('#money');
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-size: 45px;
+  font-weight: 900;
+}
+
+html {
+  align-items: absolute;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 600px;
+
+}
+
+/* estilo de la galeria*/
+.galeria {
+  background-color: black;
+  height: calc( 300px + 3em);
+  width: 307px;
+  margin:1em auto;
+  border: 3px solid black;
+  position: relative;  
+}
+
+.galeria img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+.galeria input[type=radio] {
+  position: relative;
+  bottom: calc(-300px - 1.5em);
+  left: 1em;
+}
+
+/* navegacion del album*/
+.galeria input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+  opacity: 1;
+}
+.galeria input[type=radio]:nth-of-type(5):checked ~ img:nth-of-type(5) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(6):checked ~ img:nth-of-type(6) {
+  opacity: 1;
+}
+
